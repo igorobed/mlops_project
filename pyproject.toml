@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mlops-project"
+version = "0.1.0"
+description = ""
+authors = ["DungeonMaster3000 <igorobed@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "mlops_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.3"
+black = "^23.12.1"
+isort = "^5.13.2"
+flake8 = "^7.0.0"
+pre-commit = "^3.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
